@@ -23,7 +23,7 @@
               :field="field"
               @finished="$emit('finished')"
               :resourceName="resourceName"
-              :resourceId="resource.id.value"
+              :resourceId="resource.id?.value"
               :disabled="field.disabled"
             />
           </div>
